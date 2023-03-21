@@ -10,5 +10,5 @@ services:
       MSSQL_PID: Developer
       # Create default DB
     ports:
-      - 1433:1433
+      - 1443:1433
   # -----------------Data base Server Ends ---------------------

@@ -14,7 +14,7 @@ public class Program
     {
         var connectionString =
             args.FirstOrDefault() 
-            ?? "Server=(local)\\SqlExpress; Database=MyApp; Trusted_connection=true";
+            ?? "Server=localhost,1443;Database=falcata-local;User Id=sa;Password=MyLocalDatabase-Falcata;TrustServerCertificate=true";
 
         EnsureDatabase.For.SqlDatabase(connectionString);
         
