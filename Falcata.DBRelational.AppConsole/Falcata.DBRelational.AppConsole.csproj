@@ -15,4 +15,11 @@
       <PackageReference Include="dbup" Version="5.0.8" />
     </ItemGroup>
 
+    <ItemGroup>
+      <EmbeddedResource Include="script\0000-Init_DB.sql" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="obj\**" />
+    </ItemGroup>
 </Project>
