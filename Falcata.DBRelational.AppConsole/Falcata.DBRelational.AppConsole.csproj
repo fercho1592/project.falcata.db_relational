@@ -9,6 +9,7 @@
 
     <ItemGroup>
       <Folder Include="db" />
+      <Folder Include="obj\Debug\net6.0" />
     </ItemGroup>
 
     <ItemGroup>

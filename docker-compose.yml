@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  # -----------------Data base Server Start ---------------------
+  db-server:
+    image: mcr.microsoft.com/mssql/server:2019-CU10-ubuntu-20.04
+    environment:
+      ACCEPT_EULA: 'Y'
+      SA_PASSWORD: $DBLOCAL_PASSWORD
+      MSSQL_PID: Developer
+      # Create default DB
+    ports:
+      - 1433:1433
+  # -----------------Data base Server Ends ---------------------

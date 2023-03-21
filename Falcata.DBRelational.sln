@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Falcata.DBRelational.AppConsole", "Falcata.DBRelational.AppConsole\Falcata.DBRelational.AppConsole.csproj", "{8768DBD1-E720-4EE8-B78D-85D66EBAC6E3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{413AE60F-B778-4971-8A6B-5C1A87AEBD20}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,3 +14,14 @@ Global
 		{8768DBD1-E720-4EE8-B78D-85D66EBAC6E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
+
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{AB508581-2CC6-4DDC-A35E-0CD8DEC833C9}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+		nuget.config = nuget.config
+		.ENV = .ENV
+	EndProjectSection
+EndProject
