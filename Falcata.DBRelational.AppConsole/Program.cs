@@ -1,15 +1,8 @@
-﻿using System;
-using System.Linq;
-using System.Reflection;
+﻿using System.Reflection;
 using DbUp;
 
-public class Program
+public static class Program
 {
-    static Program()
-    {
-        
-    }
-
     public static int Main(string[] args)
     {
         var connectionString =

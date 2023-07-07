@@ -9,6 +9,8 @@
 
     <ItemGroup>
       <Folder Include="obj\Debug\net6.0" />
+      <Folder Include="script\Common\Data\" />
+      <Folder Include="script\PayRestaurant\" />
     </ItemGroup>
 
     <ItemGroup>
@@ -16,10 +18,15 @@
     </ItemGroup>
 
     <ItemGroup>
-      <EmbeddedResource Include="script\0000-Init_DB.sql" />
+      <Compile Remove="obj\**" />
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Remove="obj\**" />
+      <EmbeddedResource Include="script\Common\0002_Common_Data_InitUsers.sql" />
+      <None Remove="script\Common\0000-Init_Common_schema.sql" />
+      <EmbeddedResource Include="script\Common\0000-Init_Common_schema.sql" />
+      <None Remove="script\Common\0001-Users-table.sql" />
+      <EmbeddedResource Include="script\Common\0001-Users-table.sql" />
+      <None Remove="script\Common\Data\0002_Common_Data_InitUsers.sql" />
     </ItemGroup>
 </Project>
