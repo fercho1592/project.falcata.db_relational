@@ -29,4 +29,9 @@
       <EmbeddedResource Include="script\Common\0001-Users-table.sql" />
       <None Remove="script\Common\Data\0002_Common_Data_InitUsers.sql" />
     </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="script\Common\0003-Note-table.sql" />
+      <EmbeddedResource Include="script\Common\0003-Note-table.sql" />
+    </ItemGroup>
 </Project>
