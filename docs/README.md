@@ -4,6 +4,7 @@ This folder is the source of truth for schema specifications, table designs, and
 
 ## Contents
 
+- [schema-inventory.md](./schema-inventory.md) — current schemas, tables, and initialization migrations.
 - [schema-guidelines.md](./schema-guidelines.md) — schema design standards, naming, indexing, and migration versioning policy.
 
 ## Adding domain docs
